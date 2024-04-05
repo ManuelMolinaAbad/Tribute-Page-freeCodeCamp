@@ -1,0 +1,97 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tribute Page</title>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Hideo Kojima</h1>
+      <h4 id="sub">The man who wrote a new age for videogames</h4>
+      <figure id="img-div">
+        <img id="image" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/07/hideo-kojima-2761627.jpg?tf=3840x">
+        <figcaption id="img-caption">A photo about Hideo Kojima</figcaption>
+      </figure>
+      <article id="tribute-info">
+        <p>
+        Hideo Kojima (小島 秀夫, Kojima Hideo, born August 24, 1963) is a Japanese video game designer. He is regarded as an auteur of video games. He developed a strong passion for film and literature during his childhood and adolescence. In 1986, he was hired by Konami, for which he designed and wrote Metal Gear (1987) for the MSX2, a game that laid the foundations for stealth games and the Metal Gear series, his best known and most appreciated works. At Konami, he also produced the Zone of the Enders series, as well as wrote and designed Snatcher (1988) and Policenauts (1994), graphic adventure games regarded for their cinematic presentation.</p>
+<p>
+Kojima founded Kojima Productions within Konami in 2005, and he was appointed vice president of Konami Digital Entertainment in 2011. Kojima Productions split from Konami in 2015, becoming an independent studio. His studio's first game without Konami, Death Stranding, was released in 2019.</p>
+      </article>
+      <footer>
+          <p>If you want to know more about the videogame master <a href="https://es.wikipedia.org/wiki/Hideo_Kojima" id="tribute-link" target="_blank">Hideo Kojima</a> click this link.</p>
+          <p>Make with much love to Hideo Kojima 🥰</p>
+      </footer>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  font-family: Verdana, sans serif;
+}
+
+#main{
+  width: 90%;
+  margin: auto;
+  min-width: 300px;
+}
+
+#title, #sub{
+  text-align: center;
+}
+
+#sub{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#image{
+  display: block;
+  width: 80%;
+  max-width: 100%;
+  margin: auto;
+}
+
+#img-caption{
+  display: none;
+}
+
+#tribute-info{
+  width: 80%;
+  margin: auto;
+}
+
+footer{
+  width: 80%;
+  margin: auto;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer p{
+  display: inline;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+** end of undefined **
+
